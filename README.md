@@ -22,10 +22,11 @@ The Jung personality test measures your preferences for dealing with and relatin
 
 ## Website Features
 
-[![Product Name Screen Shot](https://ibb.co/18sBwLD)
-[![Product Name Screen Shot](https://ibb.co/ftHhkHT)
-[![Product Name Screen Shot](https://ibb.co/wBsSZBj)
-[![Product Name Screen Shot](https://ibb.co/sv0hxtw)
+[![Product Name Screen Shot][product-screenshot]](https://ibb.co/18sBwLD)
+[![Product Name Screen Shot][product-screenshot]](https://ibb.co/ftHhkHT)
+[![Product Name Screen Shot][product-screenshot]](https://ibb.co/wBsSZBj)
+[![Product Name Screen Shot][product-screenshot]](https://ibb.co/sv0hxtw)
+
 
 The website can be viewed as guest or as a registered user
 
