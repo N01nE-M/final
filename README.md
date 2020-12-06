@@ -11,13 +11,13 @@ The Jung personality test measures your preferences for dealing with and relatin
 
 * [Bootstrap](https://getbootstrap.com)
     Used bootstrap for the overall frontend of the project
-* [Javascript] (https://www.javascript.com/)
+* [Javascript](https://www.javascript.com/)
     Used javascript for some form validations
 * [Flask](https://flask.palletsprojects.com/)
 * [Python](https://flask.palletsprojects.com/)
 * [Jinja2](https://jinja.palletsprojects.com/)
-* [SQLite]
-* [Postgresql in Heroku]
+* [SQLite](https://www.sqlite.org/index.html)
+* [Postgresql in Heroku](https://www.postgresql.org/)
 
 
 ## Website Features
