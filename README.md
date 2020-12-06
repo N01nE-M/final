@@ -10,9 +10,7 @@ The Jung personality test measures your preferences for dealing with and relatin
  This final project was built using the technologies listed below
 
 * [Bootstrap](https://getbootstrap.com)
-    - Used bootstrap for the overall frontend of the project
 * [Javascript](https://www.javascript.com/)
-    - Used javascript for some form validations
 * [Flask](https://flask.palletsprojects.com/)
 * [Python](https://flask.palletsprojects.com/)
 * [Jinja2](https://jinja.palletsprojects.com/)
@@ -49,7 +47,6 @@ As a registered User the Nav Bar is consist of the following:
 ### Routing
 
 Each personality has a separate route for seperate HTML pages
-
 
 ### Database
 
