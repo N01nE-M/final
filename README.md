@@ -1,6 +1,6 @@
 # CS50 Final Project - Jungian Personality Typer
 
-My project name is Jungian Personality Typer. I chose this concept for the final project because of my curiousity to determine someone's personality and use it on how to deal with them harmoniously. As a misfit kid I always thought that I was born to understand people instead of being understood. 
+My project name is Jungian Personality Typer. I chose this concept for the final project because of my interest in determining someone's personality and use it on how to deal with them harmoniously. As a misfit kid I always thought that I was born to understand people instead of being understood. 
 
 The Jung personality test measures your preferences for dealing with and relating to people, processing information, making decisions and organizing your life. Its results give you a good overview of your personality and behavior. You can then see how your Jung types match up with a potential employer's requirements.
 
