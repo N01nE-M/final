@@ -22,8 +22,8 @@ The Jung personality test measures your preferences for dealing with and relatin
 
 ## Website Features
 
-[VIEW](https://ibb.co/18sBwLD)
-[VIEW](https://ibb.co/ftHhkHT)
+* [SCREENSHOT1](https://ibb.co/18sBwLD)
+* [SCREENSHOT2](https://ibb.co/ftHhkHT)
 
 The website can be viewed as guest or as a registered user
 
