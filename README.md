@@ -22,10 +22,10 @@ The Jung personality test measures your preferences for dealing with and relatin
 
 ## Website Features
 
-[![Product Name Screen Shot][product-screenshot]](https://ibb.co/18sBwLD)
-[![Product Name Screen Shot][product-screenshot]](https://ibb.co/ftHhkHT)
-[![Product Name Screen Shot][product-screenshot]](https://ibb.co/wBsSZBj)
-[![Product Name Screen Shot][product-screenshot]](https://ibb.co/sv0hxtw)
+[![Product Name Screen Shot](https://ibb.co/18sBwLD)
+[![Product Name Screen Shot](https://ibb.co/ftHhkHT)
+[![Product Name Screen Shot](https://ibb.co/wBsSZBj)
+[![Product Name Screen Shot](https://ibb.co/sv0hxtw)
 
 The website can be viewed as guest or as a registered user
 
@@ -68,7 +68,7 @@ The final project is hosted and live in Heroku
 
 [Jungian Personality Typer](https://jungtyper.herokuapp.com/login)
 
-## Data From
+## References
 * [verywellmind.com](https://www.verywellmind.com/)
 * [16personalities.com](https://www.16personalities.com/)
 * [personalitypage.com](https://www.personalitypage.com/html/high-level.html)
