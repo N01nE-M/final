@@ -55,9 +55,9 @@ Each personality has a separate route for seperate HTML pages
 
 The database is composed of a user table where all data is stored about the registered user
 
-### Prerequisites
+### IDE and Tools
 
-The project was made using the CS50 IDE and is hosted in heroku.com
+The project was made using the CS50 IDE and is hosted in heroku.com. Images where cropped using windows snipping tool and edited in GIMP software.
 
 
 ## How to launch the website
