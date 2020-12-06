@@ -1,3 +1,5 @@
+import os
+import sqlalchemy
 from cs50 import SQL
 from flask import Flask, flash, redirect, render_template, request, session, url_for
 from flask_session import Session
