@@ -66,7 +66,7 @@ The project was made using the CS50 IDE and is hosted in heroku.com
 
 The final project is hosted and live in Heroku
 
-[Jungian Personality Typer]https://jungtyper.herokuapp.com/login
+[Jungian Personality Typer](https://jungtyper.herokuapp.com/login)
 
 ## Data From
 * [verywellmind.com](https://www.verywellmind.com/)
