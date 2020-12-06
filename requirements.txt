@@ -29,6 +29,7 @@ docutils==0.15.2
 EditorConfig==0.12.2
 filelock==3.0.12
 Flask==1.1.2
+flask-heroku==0.1.9
 Flask-Session==0.3.2
 help50==3.0.3
 html5lib==1.1
