@@ -25,7 +25,7 @@ The Jung personality test measures your preferences for dealing with and relatin
 
 The website has working C-reate R-ead U-pdate D-elete features.
 
-The website can be viewed as guest or as a registered user
+Can be viewed as guest or as a registered user
 
 The header is customized to greet either the guest or the name of the registered user. 
 
