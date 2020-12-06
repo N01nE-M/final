@@ -1,0 +1,51 @@
+{% extends "template.html" %}
+
+{% block title %}
+INTP - The Logician
+{% endblock %}
+
+
+
+
+{% block main %}
+<img src="/static/intpbanner.png" class="img-fluid mt-3" alt="Responsive image">
+<div class="jumbotron bg-white mb-3">
+<h2 class="display-10 text-center mb-4">INTP - The Logician</h2>
+<p class="lead text-left">Logical, original, creative thinkers. Can become very excited about theories and ideas. Exceptionally
+    capable and driven to turn theories into clear understandings. Highly value knowledge, competence and logic. Quiet
+    and reserved, hard to get to know well. Individualistic, having no interest in leading or following others.</p>
+</div>
+
+<form action="/dist" method="get" class="text-center">
+    <h5 class="text-center">How rare are you?</h5>
+        <button class="btn btn-lg mt-5 btn-outline-secondary" type="submit">Statistics</button>
+</form>
+
+<h3 class="text-left my-5">Cognitive Functions</h3>
+<p class="lead text-justify">Psychoanalyst Carl Jung's theory suggests that personality is made up of different cognitive functions. The hierarchical order of these functions is what establishes personality and behavioral patterns. The dominant function is the one that plays the largest role in personality, although it is also supported by the auxiliary. The tertiary function is less developed, but still exerts some influence and become more pronounced as a person strengthens this area. The inferior function is largely unconscious, but represents an area of weakness.</p>
+
+<h3 class="text-left my-5">INTP Characteristics</h3>
+<ul class="lead text-left my-8">
+<li>INTPs are quiet, reserved, and thoughtful. As introverts, they prefer to socialize with a small group of close friends with whom they share common interests and connections.</li>
+<li>They enjoy thinking about theoretical concepts and tend to value intellect over emotion. INTPs are logical and base decisions on objective information rather than subjective feelings.</li>
+<li>When analyzing data and making decisions, they are highly logical and objective.</li>
+<li>Tends to be flexible and good at thinking "outside of the box."</li>
+<li>People with this personality type think about the big picture rather than focusing on every tiny detail.</li>
+<li>INTPs like to keep their options open and feel limited by structure and planning.</li>
+</ul>
+
+<h3 class="text-left my-5">Dominant: Introverted Thinking</h3>
+<p class="lead text-justify">This function focuses on how people take in information about the world. INTPs express this by trying to understand how things work. They often like to break down larger things or ideas in order to look at the individual components in order to see how things fit and function together. INTPs tend to be highly logical and efficient thinkers. They like to have a complete understanding of something before they are willing to share an opinion or take action.</p>
+
+<h3 class="text-left my-5">Auxiliary: Extraverted Intuition</h3>
+<p class="lead text-justify">INTPs express this cognitive function by exploring what-ifs and possibilities. They utilize insight, imagination, and past experiences to form ideas. They often go over what they know, seeking patterns until they are able to achieve a flash of inspiration or insight into the problem. They tend to spend a great deal of time thinking about the future and imagining all the possibilities.</p>
+
+<h3 class="text-left my-5">Tertiary: Introverted Sensing</h3>
+<p class="lead text-justify">INTPs tend to be very detail-oriented, carefully categorizing all of the many facts and experiences that they take in. As they collect new information, they compare and contrast it with what they already know in order to make predictions about what they believe will happen next.
+
+<h3 class="text-left my-5">Inferior: Extraverted Feeling</h3>
+<p class="lead text-justify mb-5">INTPs tend to seek harmony in groups. While they are introverted, INTPs can be quite outgoing when they are around people with whom they are familiar and comfortable. In situations where they feel stress, however, INTPs shut down their feelings and struggle to connect with others. Under stress, they tend to rely on logic rather than feelings.</p>
+
+
+{% endblock %}
+

@@ -1,0 +1,52 @@
+{% extends "template.html" %}
+
+{% block title %}
+ESFP - The Entertainer
+{% endblock %}
+
+
+
+
+{% block main %}
+<img src="/static/esfpbanner.png" class="img-fluid mt-3" alt="Responsive image">
+<div class="jumbotron bg-white mb-3">
+    <h2 class="display-10 text-center mb-4">ESFP - The Entertainer</h2>
+    <p class="lead text-left">People-oriented and fun-loving, they make things more fun for others by their enjoyment. Living for the moment, they love new experiences. They dislike theory and impersonal analysis. Interested in serving others. Likely to be the center of attention in social situations. Well-developed common sense and practical ability.</p>
+</div>
+
+<form action="/dist" method="get" class="text-center">
+    <h5 class="text-center">How rare are you?</h5>
+        <button class="btn btn-lg mt-5 btn-outline-secondary" type="submit">Statistics</button>
+</form>
+
+<h3 class="text-left my-5">Cognitive Functions</h3>
+<p class="lead text-justify">Psychoanalyst Carl Jung's theory suggests that personality is made up of different
+    cognitive functions. The hierarchical order of these functions is what establishes personality and behavioral
+    patterns. The dominant function is the one that plays the largest role in personality, although it is also supported
+    by the auxiliary. The tertiary function is less developed, but still exerts some influence and become more
+    pronounced as a person strengthens this area. The inferior function is largely unconscious, but represents an area
+    of weakness.</p>
+
+<h3 class="text-left my-5">ESFP Characteristics</h3>
+<ul class="lead text-left my-8">
+    <li>ESFPs tend to be very practical and resourceful. They prefer to learn through hands-on experience and tend to dislike book learning and theoretical discussions. Because of this, students with ESFP personality types sometimes struggle in traditional classroom settings. However, they excel in situations where they are allowed to interact with others or learn through direct experience.</li>
+    <li>ESFPs live very much in the here-and-now and sometimes fail to think about how current actions will lead to long-term consequences. They will often rush into a new situation and figure things out as they happen. They also tend to dislike routine, enjoy new experiences, and are always looking for a new adventure.</li>
+    <li>In addition to having a strong awareness of their surroundings, they are also very understanding and perceptive when it comes to other people. They are able to sense what others are feeling and know how to respond. People tend to find them warm, sympathetic, and easygoing.</li>
+    <li>One common myth about ESFPs is that they are attention-seekers. While they are fun-loving and do not shun the spotlight, they are more interested in simply living in the present and doing what feels right at that moment.</li>
+
+</ul>
+
+<h3 class="text-left my-5">Dominant: Extraverted Sensing</h3>
+<p class="lead text-justify">ESFPs prefer to focus on the here-and-now rather than thinking about the distant future. They also prefer learning about concrete facts rather than theoretical ideas. ESFPs don’t spend a lot of time planning and organizing. Instead, they like to keep their options open. When solving problems, they trust their instincts and put trust in their own abilities to come up with a solution. While they are reasonable and pragmatic, they dislike structure, order, and planning. Instead, they act spontaneously and do not spend a great deal of time coming up with a plan or schedule.</p>
+
+<h3 class="text-left my-5">Auxiliary:  Introverted Feeling</h3>
+<p class="lead text-justify">ESFPs place a greater emphasis personal feelings rather than logic and facts when making decisions. People with this personality type have an internal system of values on which they base their decisions. They are very much aware of their own emotions and are empathetic towards others. They excel at putting themselves in another person's shoes, so to speak.</p>
+
+<h3 class="text-left my-5">Tertiary: Extraverted Thinking</h3>
+<p class="lead text-justify">This function is focused on enforcing order on the outside world. It is centered on productivity, logic, and results. Because this tends to be a weaker aspect of personality, ESFPs may not always feel secure sharing their judgments, especially if they feel it will disrupt the harmony of the group.</p>
+
+<h3 class="text-left my-5">Inferior: Introverted Intuition</h3>
+<p class="lead text-justify mb-5">While this is the least prominent aspect of personality, this function can help the ESFP spot patterns and make connections in things they have observed. ESFPs are usually not particularly adept at using logic to sort through abstract concepts, but this sense can sometimes lead to flashes of insight and epiphanies about the themselves or the world.</p>
+
+
+{% endblock %}

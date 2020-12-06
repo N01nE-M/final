@@ -1,0 +1,52 @@
+{% extends "template.html" %}
+
+{% block title %}
+ESTJ - The Executive
+{% endblock %}
+
+
+
+
+{% block main %}
+<img src="/static/estjbanner.png" class="img-fluid mt-3" alt="Responsive image">
+<div class="jumbotron bg-white mb-3">
+    <h2 class="display-10 text-center mb-4">ESTJ - The Executive</h2>
+    <p class="lead text-left">Practical, traditional, and organized. Likely to be athletic. Not interested in theory or abstraction unless they see the practical application. Have clear visions of the way things should be. Loyal and hard-working. Like to be in charge. Exceptionally capable in organizing and running activities. "Good citizens" who value security and peaceful living.</p>
+</div>
+
+<form action="/dist" method="get" class="text-center">
+    <h5 class="text-center">How rare are you?</h5>
+        <button class="btn btn-lg mt-5 btn-outline-secondary" type="submit">Statistics</button>
+</form>
+
+<h3 class="text-left my-5">Cognitive Functions</h3>
+<p class="lead text-justify">Psychoanalyst Carl Jung's theory suggests that personality is made up of different
+    cognitive functions. The hierarchical order of these functions is what establishes personality and behavioral
+    patterns. The dominant function is the one that plays the largest role in personality, although it is also supported
+    by the auxiliary. The tertiary function is less developed, but still exerts some influence and become more
+    pronounced as a person strengthens this area. The inferior function is largely unconscious, but represents an area
+    of weakness.</p>
+
+<h3 class="text-left my-5">ESTJ Characteristics</h3>
+<ul class="lead text-left my-8">
+    <li>Individuals with this personality type tend to place a high value on tradition, rules, and security. Maintaining the status quo is important to ESTJs, and they often become involved in civic duties, government branches, and community organizations.</li>
+    <li>Because of their orthodox approach to life, they can sometimes be seen as rigid, stubborn, and unyielding. Their take-charge attitude makes it easy for ESTJs to assume leadership positions.</li>
+    <li>Their self-confidence and strong convictions help them excel at putting plans into action, but they can at times appear critical and overly aggressive, particularly when other people fail to live up to their high standards.</li>
+    <li>People often describe ESTJs as predictable, stable, committed, and practical. They tend to be very frank and honest when it comes to sharing their opinions, which can sometimes be seen as harsh or overly critical.</li>
+
+</ul>
+
+<h3 class="text-left my-5">Dominant: Extraverted Thinking</h3>
+<p class="lead text-justify">ESTJs rely on objective information and logic to make decisions rather than personal feelings. They are skilled at making objective, impersonal, and impartial decisions. Rather than focusing on their own subjective feelings when they are making judgments, they consider facts and logic in order to make rational choices. People with ESTJ personality types tend to be very practical. They enjoy learning about things that they can see an immediate, real-world use for, but tend to lose interest in things that are abstract or theoretical. ESTJs enjoy concrete facts as opposed to abstract information. They are good at making fast and decisive choices, but they may often rush to judgment before considering all the information about a situation. One positive side, this trait makes them good leaders, but it can sometimes lead them to being viewed as harsh or abrasive.</p>
+
+<h3 class="text-left my-5">Auxiliary: Introverted Sensing</h3>
+<p class="lead text-justify">They are good at remembering things with a great deal of detail. Their memories of past events can be quite vivid, and they often utilize their recollections of past experiences to make connections with present events. Because their sensing function is focused inwardly, they tend to be less concerned with novelty and more focused on familiarity. They enjoy having habits and routines that they can depend upon. While this gives them stability and predictability, it can also make them stubborn and unyielding at times.</p>
+
+<h3 class="text-left my-5">Tertiary: Extraverted Intuition</h3>
+<p class="lead text-justify">This aspect of personality seeks out novel ideas and possibilities. It compels people with this personality type to explore their creativity. As they process new ideas and information, they may explore the possible meanings in order to spot new connections or patterns. This allows them to look at incoming information and recognize that there may be more than one interpretation or possible outcome.</p>
+
+<h3 class="text-left my-5">Inferior: Introverted Feeling</h3>
+<p class="lead text-justify mb-5">When this function is used, it may lead ESTJs to make decisions based more on feelings than on logic. These are often internal valuations that lead to "gut feelings" about some situations. While this function is not used as often, in some cases a person might allow their subjective feelings to override their objective interpretation of a situation.</p>
+
+
+{% endblock %}

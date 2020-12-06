@@ -1,0 +1,185 @@
+{% extends "template.html" %}
+
+{% block title %}
+    Settings
+{% endblock %}
+
+
+{% block main %}
+    <div class="jumbotron bg-light my-4">
+     <h2 class="display-10 text-center mb-5">Jungian Personality Typer</h2>
+      <p class="lead text-left">The Jung personality test measures your preferences for dealing with and relating to people, processing information, making decisions and organizing your life. Its results give you a good overview of your personality and behavior. You can then see how your Jung types match up with a potential employer's requirements.</p>
+</div>
+
+    <h5 class="my-5">NOTE: It is important to answer all questions to get accurate results of your personality type.</h5>
+    <hr>
+    <form action="/result" method="post">
+        <fieldset>
+            <div class="form-group">
+                <h4 class="my-5">You enjoy vibrant social events with lots of people.</h4>
+                <label class="lead mx-5">
+                  <input type="radio" name="EI1" value="E"/>Yes
+                </label>
+                <label class="lead mx-5">
+                  <input type="radio" name="EI1" value="I"/>No
+                </label>
+                <hr>
+                <h4 class="my-5">You often spend time exploring unrealistic yet intriguing ideas.</h4>
+                <label class="lead mx-5">
+                  <input type="radio" name="NS1" value="N"/>Yes
+                </label>
+                <label class="lead mx-5">
+                  <input type="radio" name="NS1" value="S"/>No
+                </label>
+                <hr>
+                <h4 class="my-5">You often think about what you should have said in a conversation long after it has taken place.</h4>
+                <label class="lead mx-5">
+                  <input type="radio" name="FT1" value="F"/>Yes
+                </label>
+                <label class="lead mx-5">
+                  <input type="radio" name="FT1" value="T"/>No
+                </label>
+                <hr>
+                <h4 class="my-5">You have a careful and methodical approach to life.</h4>
+                <label class="lead mx-5">
+                  <input type="radio" name="JP1" value="J"/>Yes
+                </label>
+                <label class="lead mx-5">
+                  <input type="radio" name="JP1" value="P"/>No
+                </label>
+                <hr>
+                <h4 class="my-5">You often rely on other people to be the ones to start a conversation and keep it going.</h4>
+                <label class="lead mx-5">
+                  <input type="radio" name="EI2" value="I"/>Yes
+                </label>
+                <label class="lead mx-5">
+                  <input type="radio" name="EI2" value="E"/>No
+                </label>
+                <hr>
+                <h4 class="my-5">You are more of a detail-oriented than a big picture person.</h4>
+                <label class="lead mx-5">
+                  <input type="radio" name="NS2" value="S"/>Yes
+                </label>
+                <label class="lead mx-5">
+                  <input type="radio" name="NS2" value="N"/>No
+                </label>
+                <hr>
+                 <h4 class="my-5">If your friend is sad about something, your first instinct is to support them emotionally, not try to solve their problem.</h4>
+                <label class="lead mx-5">
+                  <input type="radio" name="FT2" value="F"/>Yes
+                </label>
+                <label class="lead mx-5">
+                  <input type="radio" name="FT2" value="T"/>No
+                </label>
+                <hr>
+                 <h4 class="my-5">When looking for a movie to watch, you can spend ages browsing the catalog.</h4>
+                <label class="lead mx-5">
+                  <input type="radio" name="JP2" value="P"/>Yes
+                </label>
+                <label class="lead mx-5">
+                  <input type="radio" name="JP2" value="J"/>No
+                </label>
+                <hr>
+                 <h4 class="my-5">It would be a challenge for you to spend the whole weekend all by yourself without feeling bored.</h4>
+                <label class="lead mx-5">
+                  <input type="radio" name="EI3" value="E"/>Yes
+                </label>
+                <label class="lead mx-5">
+                  <input type="radio" name="EI3" value="I"/>No
+                </label>
+                <hr>
+                 <h4 class="my-5">At parties and similar events you can mostly be found farther away from the action.</h4>
+                <label class="lead mx-5">
+                  <input type="radio" name="EI4" value="I"/>Yes
+                </label>
+                <label class="lead mx-5">
+                  <input type="radio" name="EI4" value="E"/>No
+                </label>
+                <hr>
+                 <h4 class="my-5">When you sleep, your dreams tend to be bizarre and fantastical.</h4>
+                <label class="lead mx-5">
+                  <input type="radio" name="NS3" value="N"/>Yes
+                </label>
+                <label class="lead mx-5">
+                  <input type="radio" name="NS3" value="S"/>No
+                </label>
+                <hr>
+                 <h4 class="my-5">You rarely worry if you made a good impression on someone you met.</h4>
+                <label class="lead mx-5">
+                  <input type="radio" name="FT3" value="T"/>Yes
+                </label>
+                <label class="lead mx-5">
+                  <input type="radio" name="FT3" value="F"/>No
+                </label>
+                <hr>
+                 <h4 class="my-5">You are dedicated and focused on your goals, only rarely getting sidetracked.</h4>
+                <label class="lead mx-5">
+                  <input type="radio" name="JP3" value="J"/>Yes
+                </label>
+                <label class="lead mx-5">
+                  <input type="radio" name="JP3" value="P"/>No
+                </label>
+                <hr>
+                 <h4 class="my-5">If you make a mistake, you tend to start doubting yourself, your abilities, or your knowledge.</h4>
+                <label class="lead mx-5">
+                  <input type="radio" name="JP4" value="J"/>Yes
+                </label>
+                <label class="lead mx-5">
+                  <input type="radio" name="JP4" value="P"/>No
+                </label>
+                <hr>
+                 <h4 class="my-5">You are very affectionate with people you care about.</h4>
+                <label class="lead mx-5">
+                  <input type="radio" name="FT4" value="F"/>Yes
+                </label>
+                <label class="lead mx-5">
+                  <input type="radio" name="FT4" value="T"/>No
+                </label>
+                <hr>
+                <h4 class="my-5">When in a group of people you do not know, you have no problem jumping right into their conversation.</h4>
+                <label class="lead mx-5">
+                  <input type="radio" name="EI5" value="E"/>Yes
+                </label>
+                <label class="lead mx-5">
+                  <input type="radio" name="EI5" value="I"/>No
+                </label>
+                <hr>
+                <h4 class="my-5">You like discussing different views and theories on what the world could look like in the future.</h4>
+                <label class="lead mx-5">
+                  <input type="radio" name="NS4" value="N"/>Yes
+                </label>
+                <label class="lead mx-5">
+                  <input type="radio" name="NS4" value="S"/>No
+                </label>
+                <hr>
+                <h4 class="my-5">You tend to focus on present realities rather than future possibilities.</h4>
+                <label class="lead mx-5">
+                  <input type="radio" name="NS5" value="S"/>Yes
+                </label>
+                <label class="lead mx-5">
+                  <input type="radio" name="NS5" value="N"/>No
+                </label>
+                <hr>
+                <h4 class="my-5">You often find it difficult to relate to people who let their emotions guide them.</h4>
+                <label class="lead mx-5">
+                  <input type="radio" name="FT5" value="T"/>Yes
+                </label>
+                <label class="lead mx-5">
+                  <input type="radio" name="FT5" value="F"/>No
+                </label>
+                <hr>
+                <h4 class="my-5">You cannot imagine yourself dedicating your life to the study of something that you cannot see, touch, or experience.</h4>
+                <label class="lead mx-5">
+                  <input type="radio" name="JP5" value="J"/>Yes
+                </label>
+                <label class="lead mx-5">
+                  <input type="radio" name="JP5" value="P"/>No
+                </label>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-lg my-5 btn btn-dark" type="submit">FINISH</button>
+            </div>
+        </fieldset>
+    </form>
+    <script src="/static/script.js" type="text/javascript"></script>
+{% endblock %}

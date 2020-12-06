@@ -1,0 +1,50 @@
+{% extends "template.html" %}
+
+{% block title %}
+ISTJ - The Logistician
+{% endblock %}
+
+
+
+
+{% block main %}
+<img src="/static/istjbanner.png" class="img-fluid mt-3" alt="Responsive image">
+<div class="jumbotron bg-white mb-3">
+    <h2 class="display-10 text-center mb-4">ISTJ - The Logistician</h2>
+    <p class="lead text-left">Serious and quiet, interested in security and peaceful living. Extremely thorough, responsible, and dependable. Well-developed powers of concentration. Usually interested in supporting and promoting traditions and establishments. Well-organized and hard working, they work steadily towards identified goals. They can usually accomplish any task once they have set their mind to it.</p>
+</div>
+
+<form action="/dist" method="get" class="text-center">
+    <h5 class="text-center">How rare are you?</h5>
+        <button class="btn btn-lg mt-5 btn-outline-secondary" type="submit">Statistics</button>
+</form>
+
+<h3 class="text-left my-5">Cognitive Functions</h3>
+<p class="lead text-justify">Psychoanalyst Carl Jung's theory suggests that personality is made up of different
+    cognitive functions. The hierarchical order of these functions is what establishes personality and behavioral
+    patterns. The dominant function is the one that plays the largest role in personality, although it is also supported
+    by the auxiliary. The tertiary function is less developed, but still exerts some influence and become more
+    pronounced as a person strengthens this area. The inferior function is largely unconscious, but represents an area
+    of weakness.</p>
+
+<h3 class="text-left my-5">ISTJ Characteristics</h3>
+<ul class="lead text-left my-8">
+    <li>ISTJs are planners; they like to carefully plan things out well in advance. They enjoy an orderly life. They like things to be well-organized and pay a great deal of attention to detail. When things are in disarray, people with this personality type may find themselves unable to rest until they have set everything straight and the work has been completed.</li>
+    <li>ISTJs are both responsible and realistic. They take a logical approach to achieving goals and completing projects and are able to work at a steady pace toward accomplishing these tasks. They are able to ignore distractions in order to focus on the task at hand and are often described as dependable and trustworthy.</li>
+    <li>ISTJs also place a great deal of emphasis on traditions and laws. They prefer to follow rules and procedures that have previously been established. In some cases, ISTJs can seem rigid and unyielding in their desire to maintain structure.</li>
+</ul>
+
+<h3 class="text-left my-5">Dominant: Introverted Sensing</h3>
+<p class="lead text-justify">Introverted sensors are focused on the present moment, taking in an abundance of information about their surroundings. They also have vivid memories of the past and rely on the memories of these experiences to form expectations for the future.</p>
+
+<h3 class="text-left my-5">Auxiliary: Extraverted Thinking</h3>
+<p class="lead text-justify">ISTJs are logical and efficient. They enjoy looking for rational explanations for events. They prefer to focus on the details rather than thinking about abstract information. Being efficient and productive is important for people with this personality type. They appreciate knowledge that has immediate, practical applications. ISTJs make decisions based on logic and objective data rather than personal feelings.</p>
+
+<h3 class="text-left my-5">Tertiary: Introverted Feeling</h3>
+<p class="lead text-justify">As they make judgments, ISTJs often make personal interpretations based on their internal set of values. This is often described as an "instinct" or "gut feeling" about a situation. ISTJ might make a decision based on logic, only to have this feeling kick in telling them to trust their feelings rather than just the facts.</p>
+
+<h3 class="text-left my-5">Inferior: Extraverted Intuition</h3>
+<p class="lead text-justify mb-5">This aspect of personality enjoys new ideas and experiences. This is the weakest part of the ISTJs personality, but developing this function can sometimes lead to a more balanced personality.</p>
+
+
+{% endblock %}

@@ -1,0 +1,52 @@
+{% extends "template.html" %}
+
+{% block title %}
+ISTP - The Virtuoso
+{% endblock %}
+
+
+
+
+{% block main %}
+<img src="/static/istjbanner.png" class="img-fluid mt-3" alt="Responsive image">
+<div class="jumbotron bg-white mb-3">
+    <h2 class="display-10 text-center mb-4">ISTP - The Virtuoso</h2>
+    <p class="lead text-left">Quiet and reserved, interested in how and why things work. Excellent skills with mechanical things. Risk-takers who they live for the moment. Usually interested in and talented at extreme sports. Uncomplicated in their desires. Loyal to their peers and to their internal value systems, but not overly concerned with respecting laws and rules if they get in the way of getting something done. Detached and analytical, they excel at finding solutions to practical problems.</p>
+</div>
+
+<form action="/dist" method="get" class="text-center">
+    <h5 class="text-center">How rare are you?</h5>
+        <button class="btn btn-lg mt-5 btn-outline-secondary" type="submit">Statistics</button>
+</form>
+
+<h3 class="text-left my-5">Cognitive Functions</h3>
+<p class="lead text-justify">Psychoanalyst Carl Jung's theory suggests that personality is made up of different
+    cognitive functions. The hierarchical order of these functions is what establishes personality and behavioral
+    patterns. The dominant function is the one that plays the largest role in personality, although it is also supported
+    by the auxiliary. The tertiary function is less developed, but still exerts some influence and become more
+    pronounced as a person strengthens this area. The inferior function is largely unconscious, but represents an area
+    of weakness.</p>
+
+<h3 class="text-left my-5">ISTP Characteristics</h3>
+<ul class="lead text-left my-8">
+    <li>People with an ISTP personality are results-oriented. When there is a problem, they want to quickly understand the underlying cause and implement some type of solution. ISTPs are often described as quiet, but with an easy-going attitude towards others.</li>
+    <li>ISTPs enjoy new experiences and may often engage in thrill-seeking or even risk-taking behaviors. They often engage in risky or fast-paced hobbies such as motorcycling, hang gliding, bungee jumping, surfing or ice hockey. In some cases, they may seek out adventure by choosing careers in areas such as racing, flying, or firefighting.</li>
+    <li>They prefer to make judgments based upon objective criteria rather than personal beliefs or values.</li>
+    <li>ISTPs are not well attuned to the emotional states of others, and they can sometimes be seen as a bit insensitive. They also distance themselves from their own emotions, ignoring their feelings until they become overwhelming.</li>
+    <li>One common myth about ISTPs is that they are the stoic, silent type. While they do tend to be reserved, this does not mean that they do not experience strong emotions. Instead, they are good at keeping a cool head, maintaining their objectivity, and coping with crisis</li>
+</ul>
+
+<h3 class="text-left my-5">Dominant: Introverted Thinking</h3>
+<p class="lead text-justify">ISTPs spend a great deal of time thinking and dealing with information in their own heads. This means they do not spend a great deal of time expressing themselves verbally, so they are often known as being quiet. It may seem like the ISTPs approach to decision-making is very haphazard, yet their actions are actually based upon careful observation and thought. They deal with the world rationally and logically, so they are often focused on things that seem practical and useful. Because they are so logical, ISTPs are good at looking at situations in an objective way and avoiding subjective or emotional factors when making decisions. People with this personality type can be difficult to get to know, often because they are focused so much on action and results rather than on emotions.</p>
+
+<h3 class="text-left my-5">Auxiliary: Extraverted Sensing</h3>
+<p class="lead text-justify">ISTPs prefer to focus on the present and take on things one day at a time. They often avoid making long-term commitments and would rather focus on the "here and now" rather than think about future plans and possibilities. ISTPs tend to be very logical and enjoy learning and understanding how things operate. They might take apart a mechanical device just to see how it works. While they are good at understanding abstract and theoretical information, they are not particularly interested in such things unless they can see some type of practical application.</p>
+
+<h3 class="text-left my-5">Tertiary: Introverted Intuition</h3>
+<p class="lead text-justify">This function often operates largely unconsciously in the ISTP personality. While they are not usually interested in abstract ideas, they may take such concepts and try to turn them into action or practical solutions. It is this function that is behind the "gut feelings" that ISTP sometimes experience when making a decision. By synthesizing information brought in by the dominant and auxiliary functions, this aspect of personality may be responsible for sudden "aha" moments of insight.</p>
+
+<h3 class="text-left my-5">Inferior: Extraverted Feeling</h3>
+<p class="lead text-justify mb-5">This aspect of personality tends to operate in the background of the ISTP personality, but it can become more apparent during times of stress. During highly charged situations, ISTPs can sometimes lash out in sudden outbursts of emotion. They often ignore their own feelings until things reach a boiling over point, which can lead to displaying emotions in ways that can seem inappropriate.</p>
+
+
+{% endblock %}

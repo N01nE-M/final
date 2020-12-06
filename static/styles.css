@@ -1,0 +1,122 @@
+/*!
+ * Start Bootstrap - Heroic Features (https://startbootstrap.com/template/heroic-features)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+
+@media (min-width: 768px) {
+    .carousel-item.active-next {
+        display: flex;
+    }
+}
+
+a:hover, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.box3{box-shadow:0 0 3px rgba(0,0,0,.3);position:relative}
+.box3 .box-content,.box3:after,.box3:before{position:absolute;left:7%;right:7%;transition:all .3s}
+.box3:after,.box3:before{display:block;background:rgba(0,0,0,.3);top:10%;bottom:10%;z-index:1;transform:scale(0,1)}
+.box3:after{top:10.8%;bottom:10.8%;transform:scale(1,0)}
+.box3:hover:after,.box3:hover:before{transform:scale(1);animation:animate 1.5s}
+.box3:hover:before{border-top:3px solid #fff;border-bottom:3px solid #fff}
+.box:hover:after{border-left:3px solid #fff;border-right:3px solid #fff}
+.box img{width:100%;height:auto;transition:all .3s}
+.box3:hover img{transform:scale(1.2);filter:blur(10px);-moz-filter:blur(10px);-webkit-filter:blur(10px)}
+.box3 .box-content{padding:10px 10px;top:10%;bottom:10%;opacity:0;z-index:2}
+.box3:hover .box-content{box-shadow:0 0 0 35px rgba(255,255,255,.1);opacity:1;transition:all .3s}
+.box3 .title{font-size:26px;font-weight:600;color:inherit;margin:auto}
+.box3 .post{display:block;margin:0 0 5px;font-size:16px;color:rgba(255,255,255,.3)inherit}
+.box3 .description{font-size:16px;color:inherit;margin:0;text-align: center;font-weight: 600;}
+.box3 .icon{padding:0;margin:0;list-style:none}
+.box3 .icon li{display:inline-block;margin:0 10px 0 0}
+.box3 .icon li a{display:block;width:30px;height:30px;line-height:30px;color:#fff;background:#88c425;transition:all .5s}
+.box3 .icon a:hover{text-decoration:none;animation:animate-hover .5s;transition:all .3s}
+@keyframes animate{0%,100%{opacity:1}
+}
+@keyframes animate-hover{0%{box-shadow:0 0 0 10px rgba(255,255,255,.3)}
+50%{box-shadow:0 0 0 5px rgba(255,255,255,.3)}
+100%{box-shadow:0 0 0 0 rgba(255,255,255,.3)}
+}
+.box10,.box11,.box12,.box14,.box4,.box5,.box6,.box7,.box9{box-shadow:0 0 3px rgba(0,0,0,.3)}
+@media only screen and (max-width:990px){.box3{margin-bottom:30px}
+.box3 .box-content{padding:10px}
+.box3 .description{margin-bottom:10px}
+}
+@media only screen and (max-width:479px){.box3 .title{margin:0}
+}
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+    width:300px;
+    height:250px;
+    color: #000;
+    margin-top:40px;
+    margin-left:210px;
+    text-align:left;
+
+
+}
+
+#message p {
+    font-size: 16px;
+}
+
+#message h5 {
+    text-align:left;
+    margin-bottom: 20px;
+}
+
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: green;
+}
+
+.valid:before {
+    left: -35px;
+    content: "✔";
+}
+
+/* Add a red text color and an "x" icon when the requirements are wrong */
+.invalid {
+    color: black;
+}
+
+.invalid:before {
+    left: -35px;
+    content: "✖";
+}
+
+
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+#wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -80px; /* the bottom margin is the negative value of the footer's height */
+}
+#footer, #push {
+    text-align:center;
+    color:white;
+    height: 80px; /* .push must be the same height as .footer */
+}
+
+
+
+

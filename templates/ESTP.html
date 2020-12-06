@@ -1,0 +1,52 @@
+{% extends "template.html" %}
+
+{% block title %}
+ESTP - The Enterpreneur
+{% endblock %}
+
+
+
+
+{% block main %}
+<img src="/static/estpbanner.png" class="img-fluid mt-3" alt="Responsive image">
+<div class="jumbotron bg-white mb-3">
+    <h2 class="display-10 text-center mb-4">ESTP - The Enterpreneur</h2>
+    <p class="lead text-left">Friendly, adaptable, action-oriented. "Doers" who are focused on immediate results. Living in the here-and-now, they're risk-takers who live fast-paced lifestyles. Impatient with long explanations. Extremely loyal to their peers, but not usually respectful of laws and rules if they get in the way of getting things done. Great people skills.</p>
+</div>
+
+<form action="/dist" method="get" class="text-center">
+    <h5 class="text-center">How rare are you?</h5>
+        <button class="btn btn-lg mt-5 btn-outline-secondary" type="submit">Statistics</button>
+</form>
+
+<h3 class="text-left my-5">Cognitive Functions</h3>
+<p class="lead text-justify">Psychoanalyst Carl Jung's theory suggests that personality is made up of different
+    cognitive functions. The hierarchical order of these functions is what establishes personality and behavioral
+    patterns. The dominant function is the one that plays the largest role in personality, although it is also supported
+    by the auxiliary. The tertiary function is less developed, but still exerts some influence and become more
+    pronounced as a person strengthens this area. The inferior function is largely unconscious, but represents an area
+    of weakness.</p>
+
+<h3 class="text-left my-5">ESTP Characteristics</h3>
+<ul class="lead text-left my-8">
+    <li>Make decisions quickly: When confronted by problems, people with this personality type quickly look at the facts and devise an immediate solution. They tend to improvise rather than spend a great deal of time planning.</li>
+    <li>Prefer the practical over the abstract: ESTPs don't have a lot of use for abstract theories or concepts. They are more practical, preferring straightforward information that they can think about rationally and act upon immediately.</li>
+    <li>Have strong social skills: They are very observant, often picking up on details that other people never notice. Other people sometimes describe them as "fast-talkers" who are highly persuasive. In social settings, they often seem like they are a few steps ahead of the conversation.</li>
+    <li>Act impulsively at times: ESTPs are not planners. They react in the moment and can often be quite impulsive or even risk-taking. This 'leap before they look' attitude can be problematic at times and it may lead them to say or do things that they wish they could take back.</li>
+
+</ul>
+
+<h3 class="text-left my-5">Dominant: Extraverted Sensing</h3>
+<p class="lead text-justify">Extraverts gain energy from social engagement. Because of this, they tend to be outgoing, engaging, and novelty-seeking. Because they are more outward-turning, they also tend to seek stimulation through the senses.</p>
+
+<h3 class="text-left my-5">Auxiliary: Introverted Thinking</h3>
+<p class="lead text-justify">When making judgments about the world, ESTPs focus inwardly and process information in a logical and rational way. Because this side of personality is introverted, it is something that people may not immediately notice.</p>
+
+<h3 class="text-left my-5">Tertiary: Extraverted Feeling</h3>
+<p class="lead text-justify">This function focuses on creating social harmony and relationships with others. While emotions are not an ESTPs strongest suit, they do have a great need for social engagement.</p>
+
+<h3 class="text-left my-5">Inferior: Introverted Intuition</h3>
+<p class="lead text-justify mb-5">This aspect of personality focuses on looking at information in order to see patterns and develop a "gut feeling" about situations. It allows ESTPs to gain impressions of incoming data and develop a sense of the future.</p>
+
+
+{% endblock %}

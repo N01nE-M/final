@@ -1,0 +1,52 @@
+{% extends "template.html" %}
+
+{% block title %}
+INTJ - The Architect
+{% endblock %}
+
+
+
+
+{% block main %}
+<img src="/static/intjbanner.png" class="img-fluid mt-3" alt="Responsive image">
+<div class="jumbotron bg-white mb-3">
+    <h2 class="display-10 text-center mb-4">INTJ - The Architect</h2>
+    <p class="lead text-left">Independent, original, analytical, and determined. Have an exceptional ability to turn theories into solid plans of action. Highly value knowledge, competence, and structure. Driven to derive meaning from their visions. Long-range thinkers. Have very high standards for their performance, and the performance of others. Natural leaders, but will follow if they trust existing leaders.</p>
+</div>
+
+<form action="/dist" method="get" class="text-center">
+    <h5 class="text-center">How rare are you?</h5>
+        <button class="btn btn-lg mt-5 btn-outline-secondary" type="submit">Statistics</button>
+</form>
+
+<h3 class="text-left my-5">Cognitive Functions</h3>
+<p class="lead text-justify">Psychoanalyst Carl Jung's theory suggests that personality is made up of different
+    cognitive functions. The hierarchical order of these functions is what establishes personality and behavioral
+    patterns. The dominant function is the one that plays the largest role in personality, although it is also supported
+    by the auxiliary. The tertiary function is less developed, but still exerts some influence and become more
+    pronounced as a person strengthens this area. The inferior function is largely unconscious, but represents an area
+    of weakness.</p>
+
+<h3 class="text-left my-5">INTJ Characteristics</h3>
+<ul class="lead text-left my-8">
+    <li>INTJs tend to be introverted and prefer to work alone.</li>
+    <li>INTJs look at the big picture and like to focus on abstract information rather than concrete details.</li>
+    <li>INTJs place greater emphasis on logic and objective information rather than subjective emotions.</li>
+    <li>INTJs like their world to feel controlled and ordered so they prefer to make plans well in advance.</li>
+
+</ul>
+
+<h3 class="text-left my-5">Dominant: Introverted Intuition</h3>
+<p class="lead text-justify">INTJs use introverted intuition to look at patterns, meanings, and possibilities. Rather than simply looking at the concrete facts, they are more interested in what these facts mean. People with this personality type enjoy thinking about the future and exploring possibilities. When remembering events, they may recall impressions more than exact details of what occurred. INTJs are good at "reading between the lines" to figure out what things might really mean.</p>
+
+<h3 class="text-left my-5">Auxiliary: Extraverted Thinking</h3>
+<p class="lead text-justify">As a secondary function in the INTJ personality, extroverted thinking leads people to seek order, control, and structure in the world around them. For this reason, INTJs can be very deliberate and methodical when approaching problems. People with this personality type tend to make decisions based on logic. They organize their thoughts in order to see cause-and-effect relationships.</p>
+
+<h3 class="text-left my-5">Tertiary: Introverted Feeling</h3>
+<p class="lead text-justify">INTJs use introverted feeling but because it is a tertiary function, they do so to a lesser degree than they use the dominant and auxiliary functions. Those who develop this aspect of their personalities more fully pay greater attention to values and feelings when making decisions. As a result, they may also feel more drawn to people and activities that are well-aligned with their values.</p>
+
+<h3 class="text-left my-5">Inferior: Extraverted Sensing</h3>
+<p class="lead text-justify mb-5">In INTJs, this tends to be the least developed of their cognitive functions, but it does still exert some influence. This function allows people to experience process information through their senses. When this function is in play, people may feel that they are living in the moment and are energized by the world around them.</p>
+
+
+{% endblock %}

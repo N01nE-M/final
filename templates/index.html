@@ -1,0 +1,313 @@
+{% extends "template.html" %}
+
+{% block title %}
+    Register
+{% endblock %}
+
+
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Jumbotron Header -->
+    {% block header %}
+    <header class="jumbotron bg-light border border-light my-4">
+      <h2 class="display-10 text-center mb-5">Jungian Personality Typer</h2>
+    {% if session.user_id and session.type != None %}
+      <div class="text-center my-4"><a class="btn btn-outline-secondary btn-lg" href="/{{ session.type }}">{{ session.type }}</a></div>
+    {% endif %}
+      <p class="lead">Hello! {% if session.user_id %}{{ session.fname }} {{ session.lname }}{% else %}Guest{% endif %}</p>
+      <p class="lead">The Jung personality test measures your preferences for dealing with and relating to people, processing information, making decisions and organizing your life. Its results give you a good overview of your personality and behavior. You can then see how your Jung types match up with a potential employer's requirements.</p>
+     <form action="/result" method="post" class="text-center">
+      {% if not session.user_id or session.type == None %}
+         <button href="" class="btn btn-lg mt-5 btn btn-dark" type="submit">Take the Test!</button>
+        {% else %}
+
+        <button class="btn btn-lg mt-5 btn btn-dark" type="submit">Retake Test!</button>
+      </form>
+    </header>
+        {% endif %}
+    {% endblock %}
+
+    {% block main %}
+    <!-- Page Features -->
+    <main class="row text-center">
+      <div class="col-lg-3 col-md-6 mb-4">
+        <a href="/INTP">
+          <div class="box3 card h-100">
+            <img class="card-img-top img-fluid" src="/static/INTP.png" alt="">
+            <div class="card-body">
+              <h4 class="card-title">INTP</h4>
+              <p class="card-text">The Logician</p>
+            </div>
+            <div class="box-content">
+              <p class="description">
+                INTPs are pensive, analytical folks. They may venture so deeply into thought as to seem detached, and often actually are oblivious to the world around them.
+              </p>
+          </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <a href="/INTJ">
+          <div class="box3 card h-100">
+            <img class="card-img-top" src="/static/INTJ.png" alt="">
+            <div class="card-body">
+              <h4 class="card-title">INTJ</h4>
+              <p class="card-text">The Architect</p>
+            </div>
+            <div class="box-content">
+              <p class="description">
+                People of this type are perfectionists, with a seemingly endless capacity for improving upon anything that takes their interest.
+              </p>
+          </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <a href="/ENTJ">
+          <div class="box3 card h-100">
+            <img class="card-img-top" src="/static/ENTJ.png" alt="">
+            <div class="card-body">
+              <h4 class="card-title">ENTJ</h4>
+              <p class="card-text">The Commander</p>
+            </div>
+            <div class="box-content">
+              <p class="description">
+                ENTJs are decisive. They see what needs to be done, and frequently assign roles to their fellows.
+              </p>
+          </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <a href="/ENTP">
+          <div class="box3 card h-100">
+            <img class="card-img-top" src="/static/ENTP.png" alt="">
+            <div class="card-body">
+              <h4 class="card-title">ENTP</h4>
+              <p class="card-text">The Debater</p>
+            </div>
+            <div class="box-content">
+              <p class="description">
+                The professor who juggles half a dozen ideas for research papers and grant proposals in his mind while giving a highly entertaining lecture on an abstruse subject is a classic example of the type.
+              </p>
+          </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <a href="/INFJ">
+          <div class="box3 card h-100">
+            <img class="card-img-top" src="/static/INFJ.png" alt="">
+            <div class="card-body">
+              <h4 class="card-title">INFJ</h4>
+              <p class="card-text">The Advocate</p>
+            </div>
+            <div class="box-content">
+              <p class="description">
+                INFJs are distinguished by both their complexity of character and the unusual range and depth of their talents.
+              </p>
+          </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <a href="/INFP">
+          <div class="box3 card h-100">
+            <img class="card-img-top" src="/static/INFP.png" alt="">
+            <div class="card-body">
+              <h4 class="card-title">INFP</h4>
+              <p class="card-text">The Mediator</p>
+            </div>
+            <div class="box-content">
+              <p class="description">
+                INFPs never seem to lose their sense of wonder. One might say they see life through rose-colored glasses.
+              </p>
+          </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <a href="/ENFJ">
+          <div class="box3 card h-100">
+            <img class="card-img-top" src="/static/ENFJ.png" alt="">
+            <div class="card-body">
+              <h4 class="card-title">ENFJ</h4>
+              <p class="card-text">The Protagonist</p>
+            </div>
+            <div class="box-content">
+              <p class="description">
+                ENFJs are the benevolent 'pedagogues' of humanity. They have tremendous charisma by which many are drawn into their nurturant tutelage and/or grand schemes.
+              </p>
+          </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <a href="/ENFP">
+          <div class="box3 card h-100">
+            <img class="card-img-top" src="/static/ENFP.png" alt="">
+            <div class="card-body">
+              <h4 class="card-title">ENFP</h4>
+              <p class="card-text">The Campaigner</p>
+            </div>
+            <div class="box-content">
+              <p class="description">
+                ENFPs are both "idea"-people and "people"-people, who see everyone and everything as part of a cosmic whole.
+              </p>
+          </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <a href="/ISTJ">
+          <div class="box3 card h-100">
+            <img class="card-img-top" src="/static/ISTJ.png" alt="">
+            <div class="card-body">
+              <h4 class="card-title">ISTJ</h4>
+              <p class="card-text">The Logistician</p>
+            </div>
+            <div class="box-content">
+              <p class="description">
+                ISTJs are often called inspectors. They have a keen sense of right and wrong, especially in their area of interest and/or responsibility.
+              </p>
+          </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <a href="/ISFJ">
+          <div class="box3 card h-100">
+            <img class="card-img-top" src="/static/ISFJ.png" alt="">
+            <div class="card-body">
+              <h4 class="card-title">ISFJ</h4>
+              <p class="card-text">The Defender</p>
+            </div>
+            <div class="box-content">
+              <p class="description">
+                ISFJs are characterized above all by their desire to serve others, their "need to be needed".
+              </p>
+          </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <a href="/ESTJ">
+          <div class="box3 card h-100">
+            <img class="card-img-top" src="/static/ESTJ.png" alt="">
+            <div class="card-body">
+              <h4 class="card-title">ESTJ</h4>
+              <p class="card-text">The Executive</p>
+            </div>
+            <div class="box-content">
+              <p class="description">
+                ESTJs thrive on order and continuity. Being extraverted, their focus involves organization of people, which translates into supervision.
+              </p>
+          </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <a href="/ESFJ">
+          <div class="box3 card h-100">
+            <img class="card-img-top" src="/static/ESFJ.png" alt="">
+            <div class="card-body">
+              <h4 class="card-title">ESFJ</h4>
+              <p class="card-text">The Consul</p>
+            </div>
+            <div class="box-content">
+              <p class="description">
+                Guardians of birthdays, holidays and celebrations, ESFJs are generous entertainers.
+              </p>
+          </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <a href="/ISTP">
+          <div class="box3 card h-100">
+            <img class="card-img-top" src="/static/ISTP.png" alt="">
+            <div class="card-body">
+              <h4 class="card-title">ISTP</h4>
+              <p class="card-text">The Virtuoso</p>
+            </div>
+            <div class="box-content">
+              <p class="description">
+                ISTPs always seem to know what they're doing when it comes to physical or mechanical obstacles--but the whole chain of events presents a confusing and paradoxical picture to an outsider.
+              </p>
+          </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <a href="/ISFP">
+          <div class="box3 card h-100">
+            <img class="card-img-top" src="/static/ISFP.png" alt="">
+            <div class="card-body">
+              <h4 class="card-title">ISFP</h4>
+              <p class="card-text">The Adventurer</p>
+            </div>
+            <div class="box-content">
+              <p class="description">
+                ISFPs are the first to hear the different drummer. Many eagerly plunge into new fashions, avant garde experiences, 'hip' trends--some even setting the trends.
+              </p>
+          </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <a href="/ESTP">
+          <div class="box3 card h-100">
+            <img class="card-img-top" src="/static/ESTP.png" alt="">
+            <div class="card-body">
+              <h4 class="card-title">ESTP</h4>
+              <p class="card-text">The Enterpreneur</p>
+            </div>
+            <div class="box-content">
+              <p class="description">
+                Gamesmanship is the calling card of the ESTP. Persons of this type have a natural drive to best the competition.
+              </p>
+          </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <a href="/ESFP">
+          <div class="box3 card h-100">
+            <img class="card-img-top" src="/static/ESFP.png" alt="">
+            <div class="card-body">
+              <h4 class="card-title">ESFP</h4>
+              <p class="card-text">The Entertainer</p>
+            </div>
+            <div class="box-content">
+              <p class="description">
+                The spontaneous, impulsive nature of the ESFP is almost always entertaining.
+              </p>
+          </div>
+          </div>
+        </a>
+      </div>
+
+    </main>
+  {% endblock %}
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+

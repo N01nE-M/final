@@ -1,0 +1,52 @@
+{% extends "template.html" %}
+
+{% block title %}
+INFJ - The Advocate
+{% endblock %}
+
+
+
+
+{% block main %}
+<img src="/static/infjbanner.png" class="img-fluid mt-3" alt="Responsive image">
+<div class="jumbotron bg-white mb-3">
+    <h2 class="display-10 text-center mb-4">INFJ - The Advocate</h2>
+    <p class="lead text-left">Quietly forceful, original, and sensitive. Tend to stick to things until they are done. Extremely intuitive about people, and concerned for their feelings. Well-developed value systems which they strictly adhere to. Well-respected for their perserverence in doing the right thing. Likely to be individualistic, rather than leading or following.</p>
+</div>
+
+<form action="/dist" method="get" class="text-center">
+    <h5 class="text-center">How rare are you?</h5>
+        <button class="btn btn-lg mt-5 btn-outline-secondary" type="submit">Statistics</button>
+</form>
+
+<h3 class="text-left my-5">Cognitive Functions</h3>
+<p class="lead text-justify">Psychoanalyst Carl Jung's theory suggests that personality is made up of different
+    cognitive functions. The hierarchical order of these functions is what establishes personality and behavioral
+    patterns. The dominant function is the one that plays the largest role in personality, although it is also supported
+    by the auxiliary. The tertiary function is less developed, but still exerts some influence and become more
+    pronounced as a person strengthens this area. The inferior function is largely unconscious, but represents an area
+    of weakness.</p>
+
+<h3 class="text-left my-5">INFJ Characteristics</h3>
+<ul class="lead text-left my-8">
+    <li>With their strong sense of intuition and emotional understanding, INFJs can be soft-spoken and empathetic. This does not mean that they are push-over's, however. They have deeply held beliefs and an ability to act decisively in order to get what they want.</li>
+    <li>While they are introverted by nature, people with this personality type are able to form strong, meaningful connections with other people. They enjoy helping others, but they also need time and space to recharge.</li>
+    <li>While this personality type may be characterized by idealism, this does not mean that INFJs see the world through rose-colored glasses. They understand the world, both the good and the bad, and hope to be able to make it better.</li>
+    <li>When it comes to making decisions, they place a greater emphasis on personal concerns than objective facts when making decisions. They also like to exert control by planning, organizing and making decisions as early as possible.</li>
+
+</ul>
+
+<h3 class="text-left my-5">Dominant: Introverted Intuition</h3>
+<p class="lead text-justify">This means that they tend to be highly focused on their internal insights. Once they have formed an intuition about something, they tend to stick to it very tightly, often to the point of being single-minded in their focus. Because of this, they are sometimes viewed as being stubborn and unyielding.</p>
+
+<h3 class="text-left my-5">Auxiliary: Extraverted Feeling</h3>
+<p class="lead text-justify">This characteristic of this type makes INFJs highly aware of what other people are feeling, but it means they are sometimes less aware of their own emotions. INFJs sometimes struggle to say no to other people's requests for this reason. They are so attuned to what other people are feeling that they fear causing disappointment or hurt feelings.</p>
+
+<h3 class="text-left my-5">Tertiary: Introverted Thinking</h3>
+<p class="lead text-justify">INFJs make decisions based on ideas and theories that they form based on their own insights. INFJs rely primarily on their introverted intuition and extroverted feeling when making decisions, particularly when they are around other people. When they are alone, however, people with this personality type may rely more on their introverted thinking. In stressful situations, an INFJ might try to rely on emotions when making decisions, especially if it means pleasing other people. Under less stressful conditions, however, an INFJ is more likely to rely more on their intuition.</p>
+
+<h3 class="text-left my-5">Inferior: Extraverted Sensing</h3>
+<p class="lead text-justify mb-5">While this is a less developed and largely unconscious aspect of the INFJ, it does have an impact on personality. This aspect of personality helps the INFJ pay attention to the world around them and stay aware of their surroundings. Extroverted sensing also helps INFJs better live in the present moment, rather than simply worrying about the future. This aspect of personality also helps INFJs appreciate physical activities such as hiking and dancing.</p>
+
+
+{% endblock %}

@@ -1,0 +1,52 @@
+{% extends "template.html" %}
+
+{% block title %}
+ESFJ - The Consul
+{% endblock %}
+
+
+
+
+{% block main %}
+<img src="/static/esfjbanner.png" class="img-fluid mt-3" alt="Responsive image">
+<div class="jumbotron bg-white mb-3">
+    <h2 class="display-10 text-center mb-4">ESFJ - The Consul</h2>
+    <p class="lead text-left">Warm-hearted, popular, and conscientious. Tend to put the needs of others over their own needs. Feel strong sense of responsibility and duty. Value traditions and security. Interested in serving others. Need positive reinforcement to feel good about themselves. Well-developed sense of space and function.</p>
+</div>
+
+<form action="/dist" method="get" class="text-center">
+    <h5 class="text-center">How rare are you?</h5>
+        <button class="btn btn-lg mt-5 btn-outline-secondary" type="submit">Statistics</button>
+</form>
+
+<h3 class="text-left my-5">Cognitive Functions</h3>
+<p class="lead text-justify">Psychoanalyst Carl Jung's theory suggests that personality is made up of different
+    cognitive functions. The hierarchical order of these functions is what establishes personality and behavioral
+    patterns. The dominant function is the one that plays the largest role in personality, although it is also supported
+    by the auxiliary. The tertiary function is less developed, but still exerts some influence and become more
+    pronounced as a person strengthens this area. The inferior function is largely unconscious, but represents an area
+    of weakness.</p>
+
+<h3 class="text-left my-5">ESFJ Characteristics</h3>
+<ul class="lead text-left my-8">
+    <li>In addition to deriving pleasure from helping others, ESFJs also ​have a need for approval. They expect their kind and giving ways to be noticed and appreciated by others. They are sensitive to the needs and feelings of others and are good at responding and providing the care that people need. They want to be liked by others and are easily hurt by unkindness or indifference.</li>
+    <li>ESFJs derive their value system from external sources including the community at large rather than from intrinsic, ethical, and moral guidelines. People with this personality type who are raised with high values and standards grow up to be generous adults. ESFJs raised in a less enriched environment may have skewed ethics as adults and are more likely to be manipulative and self-centered.</li>
+    <li>ESFJs also have a strong desire to exert control over their environment. Organizing, planning, and scheduling help people with this personality type feel in command of the world around them.</li>
+    <li>ESFJs are naturally geared toward understanding other people. They are careful observers of others and are adept at supporting and bringing out the best in people. Because they are so good at helping others feel good about themselves, people feel drawn to ESFJs.</li>
+    <li>One common myth about ESFJs is that they can sometimes be doormat - allowing others to walk over them out of a fear of disapproval or rejection. While they are people pleasers, this does not mean that they are pushovers.</li>
+</ul>
+
+<h3 class="text-left my-5">Dominant: Extraverted Feeling</h3>
+<p class="lead text-justify">ESFJs tend to make decisions based on personal feeling, emotions, and concern for others. They tend to think more about the personal impact of a decision rather than considering objective criteria. ESFJs tend to judge people and situations based upon their "gut feelings." They often make snap decisions as a result and are quick to share their feelings and opinions. This tendency can be great in some ways, as it allows them to make choices rather quickly. On the negative side, it can sometimes lead to overly harsh judgments of others.</p>
+
+<h3 class="text-left my-5">Auxiliary: Introverted Sensing</h3>
+<p class="lead text-justify">ESFJs are more focused on the present than on the future. They are interested in concrete, immediate details rather than abstract or theoretical information.</p>
+
+<h3 class="text-left my-5">Tertiary: Extraverted Intuition</h3>
+<p class="lead text-justify">This cognitive function helps ESFJs make connections and find creative solutions to problems. ESFJs are known to explore the possibilities when looking at a situation. They can often find patterns that allow them to gain insights into people and experiences.</p>
+
+<h3 class="text-left my-5">Inferior: Introverted Thinking</h3>
+<p class="lead text-justify mb-5">ESFJs are organized and like to plan things out in advance. Planning helps people with this personality type feel more in control of the world around them. This aspect of personality helps the ESFJ analyze complex information, but it is often a point of weakness, especially when it comes to making sense of abstract or theoretical concepts.</p>
+
+
+{% endblock %}

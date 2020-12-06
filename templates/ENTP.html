@@ -1,0 +1,52 @@
+{% extends "template.html" %}
+
+{% block title %}
+ENTP - The Debater
+{% endblock %}
+
+
+
+
+{% block main %}
+<img src="/static/entpbanner.png" class="img-fluid mt-3" alt="Responsive image">
+<div class="jumbotron bg-white mb-3">
+    <h2 class="display-10 text-center mb-4">ENTP - The Debater</h2>
+    <p class="lead text-left">Creative, resourceful, and intellectually quick. Good at a broad range of things. Enjoy debating issues, and may be into "one-up-manship". They get very excited about new ideas and projects, but may neglect the more routine aspects of life. Generally outspoken and assertive. They enjoy people and are stimulating company. Excellent ability to understand concepts and apply logic to find solutions.</p>
+</div>
+
+<form action="/dist" method="get" class="text-center">
+    <h5 class="text-center">How rare are you?</h5>
+        <button class="btn btn-lg mt-5 btn-outline-secondary" type="submit">Statistics</button>
+</form>
+
+<h3 class="text-left my-5">Cognitive Functions</h3>
+<p class="lead text-justify">Psychoanalyst Carl Jung's theory suggests that personality is made up of different
+    cognitive functions. The hierarchical order of these functions is what establishes personality and behavioral
+    patterns. The dominant function is the one that plays the largest role in personality, although it is also supported
+    by the auxiliary. The tertiary function is less developed, but still exerts some influence and become more
+    pronounced as a person strengthens this area. The inferior function is largely unconscious, but represents an area
+    of weakness.</p>
+
+<h3 class="text-left my-5">ENTP Characteristics</h3>
+<ul class="lead text-left my-8">
+    <li>ENTPs enjoy interacting with a wide variety of people. They are great conversationalists and love to engage other people in debates.</li>
+    <li>They are more focused on the future rather than on immediate details. They may start projects and never finish them because they are so focused on the big picture rather than the present needs.</li>
+    <li>ENTPs enjoy being around other people, particularly if they are able to engage in a conversation or debate about something in which they are interested. They are usually fairly laid-back and easy to get along with. However, they can sometimes get so wrapped up in their ideas or plans that they lose sight of their close relationships.</li>
+    <li>They tend to reserve judgment. Instead of making a decision or committing to a course of action, they would prefer to wait and see what happens.</li>
+    <li>ENTPs are immensely curious and focused on understanding the world around them. They are constantly absorbing new information and ideas and quickly arriving at conclusions. They are able to understand new things quite quickly.</li>
+</ul>
+
+<h3 class="text-left my-5">Dominant: Extroverted Intuition</h3>
+<p class="lead text-justify">ENTPs tend to take in information quickly and are very open-minded. Once they have gathered this information, they spend time making connections between various complex and interwoven relationships. They are good at spotting connections that others might overlook and tend to be focused on possibilities. They have entrepreneurial minds and are always coming up with new and exciting ideas.</p>
+
+<h3 class="text-left my-5">Auxiliary: Introverted Thinking</h3>
+<p class="lead text-justify">This cognitive function is expressed in the ENTPs thinking process. People with this type of personality are more focused on taking in information about the world around them. When they do use this information to reach conclusions, they tend to be very logical. ENTPs are logical and objective. When making decisions, they place a greater weight on rational evidence instead of subjective, emotional information. This function works to help the ENTP understand all the information that comes in through the extroverted intuition function. This involves imposing logic and order to help make sense of many disparate ideas and pieces of information. ENTPs don't want to just understand that something works - they want to understand the why and how behind how things function.</p>
+
+<h3 class="text-left my-5">Tertiary: Extroverted Feeling</h3>
+<p class="lead text-justify">As a tertiary function, this aspect of personality may not be as well-developed or prominent. When developed, ENTPs can be social charmers who are able to get along well with others. When this aspect of personality is weaker, the ENTP may be insensitve to others and can even be seen as aloof or unkind.</p>
+
+<h3 class="text-left my-5">Inferior: Introverted Sensing</h3>
+<p class="lead text-justify mb-5">The introverted sensing function is centered on understanding the past and often applying it to current experiences and future concerns. This is often a point of weakness for ENTP personalities. They are often focused more on possibilities and may fail to consider how past precedents may help predict outcomes. ENTPs also tend to overlook many of the more mundane details of daily life, especially if they are deeply involved in a project or plan.</p>
+
+
+{% endblock %}

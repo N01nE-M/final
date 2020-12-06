@@ -1,0 +1,41 @@
+{% extends "template.html" %}
+
+{% block title %}
+    Log In
+{% endblock %}
+
+{% block main %}
+<div class="jumbotron bg-light my-4">
+     <h2 class="display-10 text-center mb-5">Jungian Personality Typer</h2>
+      <p class="lead text-left">The Jung personality test measures your preferences for dealing with and relating to people, processing information, making decisions and organizing your life. Its results give you a good overview of your personality and behavior. You can then see how your Jung types match up with a potential employer's requirements.</p>
+<div class="row justify-content-center">
+    <form action="/guest" method="get" class="w-50">
+       <button class="btn btn-lg mt-4 btn btn-dark" type="submit">Enter as Guest</button>
+    </form>
+</div>
+</div>
+       <!-- Default form login -->
+
+<div class="row justify-content-center">
+<form action="/login" method="post" class="w-75">
+    <!-- Username -->
+    <input type="text" name="username" id="defaultLoginFormEmail" class="form-control w-50 mx-auto my-4" placeholder="Username">
+
+    <!-- Password -->
+    <input type="password" name="password" id="defaultLoginFormPassword" class="form-control w-50 mx-auto my-4" placeholder="Password">
+
+    <!-- Sign in button -->
+    <button class="btn btn-dark btn-lg mb-5" type="submit">LOG IN</button>
+
+    <!-- Register -->
+    <p><a href="/register" class="btn btn-outline-dark btn-sm">Register</a> and Login to take the Test!
+    </p>
+</form>
+</div>
+
+<div id="push"></div>
+<div id="push"></div>
+{% endblock %}
+
+<!-- Default form login -->
+

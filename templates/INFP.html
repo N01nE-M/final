@@ -1,0 +1,52 @@
+{% extends "template.html" %}
+
+{% block title %}
+INFP - The Mediator
+{% endblock %}
+
+
+
+
+{% block main %}
+<img src="/static/infpbanner.png" class="img-fluid mt-3" alt="Responsive image">
+<div class="jumbotron bg-white mb-3">
+    <h2 class="display-10 text-center mb-4">INFP - The Mediator</h2>
+    <p class="lead text-left">Quiet, reflective, and idealistic. Interested in serving humanity. Well-developed value system, which they strive to live in accordance with. Extremely loyal. Adaptable and laid-back unless a strongly-held value is threatened. Usually talented writers. Mentally quick, and able to see possibilities. Interested in understanding and helping people.</p>
+</div>
+
+<form action="/dist" method="get" class="text-center">
+    <h5 class="text-center">How rare are you?</h5>
+        <button class="btn btn-lg mt-5 btn-outline-secondary" type="submit">Statistics</button>
+</form>
+
+<h3 class="text-left my-5">Cognitive Functions</h3>
+<p class="lead text-justify">Psychoanalyst Carl Jung's theory suggests that personality is made up of different
+    cognitive functions. The hierarchical order of these functions is what establishes personality and behavioral
+    patterns. The dominant function is the one that plays the largest role in personality, although it is also supported
+    by the auxiliary. The tertiary function is less developed, but still exerts some influence and become more
+    pronounced as a person strengthens this area. The inferior function is largely unconscious, but represents an area
+    of weakness.</p>
+
+<h3 class="text-left my-5">INFP Characteristics</h3>
+<ul class="lead text-left my-8">
+    <li>INFPs tend to be introverted, quiet, and reserved. Being in social situations tends to drain their energy and they prefer interacting with a select group of close friends. While they like to be alone, this should not necessarily be confused with shyness. Instead, it simply means that INFPs gain energy from spending time alone. On the other hand, they have to expend energy in social situations.</li>
+    <li>INFPs typically rely on intuition and are more focused on the big picture rather than the nitty-gritty details. They can be quite meticulous about things they really care about or projects they are working on, but tend to ignore mundane or boring details.</li>
+    <li>INFPs place an emphasis on personal feelings and their decisions are more influenced by these concerns rather than by objective information.</li>
+    <li>When it comes to making decisions, INFPs like to keep their options open. They often delay making important decisions just in case something about the situation changes. When decisions are made, they are usually based on personal values rather than logic.</li>
+
+</ul>
+
+<h3 class="text-left my-5">Dominant: Introverted Feeling</h3>
+<p class="lead text-justify">INFPs experience a great depth of feelings, but as introverts they largely process these emotions internally. They possess an incredible sense of wonder about the world and feel great compassion and empathy for others. While these emotions are strong, they tend not to express them outwardly, which is why they can sometimes be mistaken as aloof or unwelcoming.</p>
+
+<h3 class="text-left my-5">Auxiliary: Extraverted Intuition</h3>
+<p class="lead text-justify">INFPs explore situations using imagination and 'what if' scenarios, often thinking through a variety of possibilities before settling on a course of action. Their inner lives are a dominant force in personality and they engage with the outside world by using their intuition. They focus on the "big picture" and things will shape the course of the future. This ability helps make INFPs transformative leaders who are excited about making positive changes in the world.</p>
+
+<h3 class="text-left my-5">Tertiary: Introverted Sensing</h3>
+<p class="lead text-justify">When taking in information, INFPs create vivid memories of the events. They will often replay these events in their minds to analyze experiences in less stressful settings. Such memories are usually associated with strong emotions, so recalling a memory can often seem like reliving the experience itself.</p>
+
+<h3 class="text-left my-5">Inferior: Extraverted Thinking</h3>
+<p class="lead text-justify mb-5">This cognitive function involves organizing and making sense of the world in an objective and logical manner. While this is a largely unconscious influence in the INFPs personality, it can show itself in times of pressure. When faced with stress, an INFP might become suddenly very pragmatic and detail-oriented, focusing on logic rather than emotion. Because they are typically ruled more by intuition and emotion, INFPs can sometimes struggle to feel productive and efficient. Learning to develop the extraverted thinking function can help people with this personality type create a better sense of balance.</p>
+
+
+{% endblock %}

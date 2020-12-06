@@ -1,0 +1,53 @@
+{% extends "template.html" %}
+
+{% block title %}
+ISFP - The Adventurer
+{% endblock %}
+
+
+
+
+{% block main %}
+<img src="/static/isfpbanner.png" class="img-fluid mt-3" alt="Responsive image">
+<div class="jumbotron bg-white mb-3">
+    <h2 class="display-10 text-center mb-4">ISFP - The Adventurer</h2>
+    <p class="lead text-left">Quiet, serious, sensitive and kind. Do not like conflict, and not likely to do things which may generate conflict. Loyal and faithful. Extremely well-developed senses, and aesthetic appreciation for beauty. Not interested in leading or controlling others. Flexible and open-minded. Likely to be original and creative. Enjoy the present moment.</p>
+</div>
+
+<form action="/dist" method="get" class="text-center">
+    <h5 class="text-center">How rare are you?</h5>
+        <button class="btn btn-lg mt-5 btn-outline-secondary" type="submit">Statistics</button>
+</form>
+
+<h3 class="text-left my-5">Cognitive Functions</h3>
+<p class="lead text-justify">Psychoanalyst Carl Jung's theory suggests that personality is made up of different
+    cognitive functions. The hierarchical order of these functions is what establishes personality and behavioral
+    patterns. The dominant function is the one that plays the largest role in personality, although it is also supported
+    by the auxiliary. The tertiary function is less developed, but still exerts some influence and become more
+    pronounced as a person strengthens this area. The inferior function is largely unconscious, but represents an area
+    of weakness.</p>
+
+<h3 class="text-left my-5">ISFP Characteristics</h3>
+<ul class="lead text-left my-8">
+    <li>ISFPs like to keep their options open, so they often delay making decisions in order to see if things might change or if new options come up.</li>
+    <li>According to Myers-Briggs, ISFPs are kind, friendly, sensitive and quiet. Unlike extroverts who gain energy from interacting with other people, introverts must expend energy around others. After spending time with people, introverts often find that they need a period of time alone. Because of this, they typically prefer to intermingle with a small group of close friends and family members.</li>
+    <li>While they are quiet and reserved, they are also known for being peaceful, caring, and considerate. ISFPs have an easy-going attitude and tend to accept other people as they are.</li>
+    <li>ISFPs like to focus on the details. They spend more time thinking about the here and now rather than worrying about the future.</li>
+    <li>ISFPs tend to be "doers" rather than "dreamers." They dislike abstract theories unless they can see some type of practical application for them and prefer learning situations that involve gaining hands-on experience.</li>
+
+</ul>
+
+<h3 class="text-left my-5">Dominant: Introverted Feeling</h3>
+<p class="lead text-justify">ISFPs care more about personal concerns rather than objective, logical information. People with this personality type deal with information and experiences based upon how they feel about them. ISFPs have their own value system and create spontaneous judgments based upon how things fit with their own idea.</p>
+
+<h3 class="text-left my-5">Auxiliary: Extraverted Sensing</h3>
+<p class="lead text-justify">People with ISFP personalities are very in tune with the world around them. They are very much attuned to sensory information and are keenly aware when even small changes take place in their immediate environment. Because of this, they often place a high emphasis on aesthetics and appreciate the fine arts. They are focused on the present moment, taking in new information and then taking action. They have a strong sense of their immediate surroundings, often noticing small details that others might overlook. When remembering events from the past, they are able to recall strong visual imagery and sights, smells, and sounds can evoke powerful memories associated with those senses.</p>
+
+<h3 class="text-left my-5">Tertiary: Introverted Intuition</h3>
+<p class="lead text-justify">This function tends to run in the background, feeding off of the extraverted sensing function. As ISFPs take in details about the world, they often develop "gut feelings" about events and situations. While they generally do not like abstract concepts or ideas, this introverted intuition function may lead them to experience epiphanies about themselves and others.</p>
+
+<h3 class="text-left my-5">Inferior: Extraverted Thinking</h3>
+<p class="lead text-justify mb-5">One weakness that ISFPs may have is in organizing, although they may use this function more prominently in certain situations. This function is all about looking for the most efficient way to do something. An ISFP might become focused on being very precise about the details and finding the most effective way to express an idea.</p>
+
+
+{% endblock %}

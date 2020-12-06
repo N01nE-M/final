@@ -1,0 +1,56 @@
+{% extends "template.html" %}
+
+{% block title %}
+ENFP - The Campaigner
+{% endblock %}
+
+
+
+
+{% block main %}
+<img src="/static/enfpbanner.png" class="img-fluid mt-3" alt="Responsive image">
+<div class="jumbotron bg-white mb-3">
+    <h2 class="display-10 text-center mb-4">ENFP - The Campaigner</h2>
+    <p class="lead text-left">Enthusiastic, idealistic, and creative. Able to do almost anything that interests them.
+        Great people skills. Need to live life in accordance with their inner values. Excited by new ideas, but bored
+        with details. Open-minded and flexible, with a broad range of interests and abilities.</p>
+</div>
+
+<form action="/dist" method="get" class="text-center">
+    <h5 class="text-center">How rare are you?</h5>
+        <button class="btn btn-lg mt-5 btn-outline-secondary" type="submit">Statistics</button>
+</form>
+
+<h3 class="text-left my-5">Cognitive Functions</h3>
+<p class="lead text-justify">Psychoanalyst Carl Jung's theory suggests that personality is made up of different
+    cognitive functions. The hierarchical order of these functions is what establishes personality and behavioral
+    patterns. The dominant function is the one that plays the largest role in personality, although it is also supported
+    by the auxiliary. The tertiary function is less developed, but still exerts some influence and become more
+    pronounced as a person strengthens this area. The inferior function is largely unconscious, but represents an area
+    of weakness.</p>
+
+<h3 class="text-left my-5">ENFP Characteristics</h3>
+<ul class="lead text-left my-8">
+    <li>ENFPs have excellent people skills. In addition to having an abundance of enthusiasm, they also genuinely care
+        about others. ENFPs are good at understanding what other people are feeling. Given their zeal, charisma, and
+        creativity, they can also make great leaders.</li>
+    <li>People with this personality type strongly dislike routine and prefer to focus on the future. While they are great at generating new ideas, they sometimes put off important tasks until the last minute. Dreaming up ideas but not seeing them through to completion is a common problem.</li>
+    <li>ENFPs can also become easily distracted, particularly when they are working on something that seems boring or uninspiring.</li>
+    <li>ENFPs are flexible and like to keep their options open. They can be spontaneous and are highly adaptable to change. They also dislike routine and may have problems with disorganization and procrastination.</li>
+</ul>
+
+<h3 class="text-left my-5">Dominant: Extraverted Intuition</h3>
+<p class="lead text-justify">ENFPs generally focus on the world of possibilities. They are good at abstract thinking and prefer not to concentrate on the tiny details.3﻿ They are inventive and focused on the future. ENFPs are good at seeing things as they might be rather than focusing simply what they are. They have a natural tendency to focus on relationships and are skilled at finding patterns and connections between people, situations, and ideas.</p>
+
+<h3 class="text-left my-5">Auxiliary: Introverted Feeling</h3>
+<p class="lead text-justify">When making decisions, ENFPs place a greater value on feelings and values rather than on logic and objective criteria. They tend to follow their heart, empathize with others, and let their emotions guide their decisions. ENFPs have a strong desire to be true to themselves and their values. In an ideal world, their the world would be in congruence with their values.</p>
+
+<h3 class="text-left my-5">Tertiary: Extraverted Thinking</h3>
+<p class="lead text-justify">This cognitive function is centered on organizing information and ideas in a logical way. When looking at information, the ENFP may use this function to sort through disparate data in order to efficiently spot connections. For example, an ENFP might "think out loud" as they are working through a problem, laying out all the information in order to create an easily followed train of thought.
+</p>
+
+<h3 class="text-left my-5">Inferior: Introverted Sensing</h3>
+<p class="lead text-justify mb-5">ENFPs express this function by comparing the things they are experiencing in the moment to past experiences. In doing so, they are often able to call to mind memories, feelings, and senses that they associate with those events. This allows the individual to seek patterns and form expectations for future events based upon their previous experiences.</p>
+
+
+{% endblock %}

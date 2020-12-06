@@ -1,0 +1,52 @@
+{% extends "template.html" %}
+
+{% block title %}
+ISFJ - The Defender
+{% endblock %}
+
+
+
+
+{% block main %}
+<img src="/static/isfjbanner.png" class="img-fluid mt-3" alt="Responsive image">
+<div class="jumbotron bg-white mb-3">
+    <h2 class="display-10 text-center mb-4">ISFJ - The Defender</h2>
+    <p class="lead text-left">Quiet, kind, and conscientious. Can be depended on to follow through. Usually puts the needs of others above their own needs. Stable and practical, they value security and traditions. Well-developed sense of space and function. Rich inner world of observations about people. Extremely perceptive of other's feelings. Interested in serving others.</p>
+</div>
+
+<form action="/dist" method="get" class="text-center">
+    <h5 class="text-center">How rare are you?</h5>
+        <button class="btn btn-lg mt-5 btn-outline-secondary" type="submit">Statistics</button>
+</form>
+
+<h3 class="text-left my-5">Cognitive Functions</h3>
+<p class="lead text-justify">Psychoanalyst Carl Jung's theory suggests that personality is made up of different
+    cognitive functions. The hierarchical order of these functions is what establishes personality and behavioral
+    patterns. The dominant function is the one that plays the largest role in personality, although it is also supported
+    by the auxiliary. The tertiary function is less developed, but still exerts some influence and become more
+    pronounced as a person strengthens this area. The inferior function is largely unconscious, but represents an area
+    of weakness.</p>
+
+<h3 class="text-left my-5">ISFJ Characteristics</h3>
+<ul class="lead text-left my-8">
+    <li>ISFJs enjoy structure and strive to maintain this order in all areas of their lives. While people with this personality type are introverted and tend to be quiet, they are keen observers and are focused on other people. Because they are so perceptive, ISFJs are good at remembering details about other people.</li>
+    <li>Those with this personality type are particularly well-tuned into the emotions and feelings of others. While ISFJs are good at understanding their own emotions, they often struggle to express them. Rather than share their feelings, they may bottle them up, sometimes to the point that negative feelings toward other people can result.</li>
+    <li>ISFJs learn best in a highly structured and consistent environment where they are given step-by-step instructions and clear expectations.</li>
+    <li>Because ISFJs tend to be protective of tradition, there is a common myth that they are incapable of change. While people with this personality type may not be quick to change, they are still adaptable. They simply prefer to have time to think about and prepare for big changes.</li>
+
+</ul>
+
+<h3 class="text-left my-5">Dominant: Introverted Sensing</h3>
+<p class="lead text-justify">This function leads the introverted sensing types to focus on details and facts. ISFJs prefer concrete information rather than abstract theories. They are highly attuned to the immediate environment and firmly grounded in reality. Because of this tendency to focus on and protect what is familiar, ISFJs are often seen as highly traditional. When making decisions, ISFJs compare their vivid recall of past experiences in order to predict the outcome of future choices and events.</p>
+
+<h3 class="text-left my-5">Auxiliary: Extraverted Feeling</h3>
+<p class="lead text-justify">ISFJs place a great emphasis on personal considerations. Extraverted feelers are focused on developing social harmony and connection. This is accomplished through behaviors that are viewed as socially appropriate or beneficial, such as being polite, kind, considerate, and helpful. ISFJs try to fill the wants and needs of other people, sometimes even sacrificing their own desires in order to ensure that other people are happy.</p>
+
+<h3 class="text-left my-5">Tertiary: Introverted Thinking</h3>
+<p class="lead text-justify">ISFJs are planners and tend to be very well-organized. They utilize logic in order to understand how the world works. As ISFJs take in new information and experiences, look for connections and commonalities in order to find patterns. Rather than simply trying to understand a small part of something, they want to see how things fit together and how it functions as a whole.</p>
+
+<h3 class="text-left my-5">Inferior: Extraverted Intuition</h3>
+<p class="lead text-justify mb-5">While ISFJs tend to be focused on the present and on concrete facts, this largely unconscious function can help balance ISFJ personality by helping the individual focus on possibilities. Taking in facts and then exploring the "what-ifs" can lead to new insights about problems.</p>
+
+
+{% endblock %}

@@ -1,0 +1,51 @@
+{% extends "template.html" %}
+
+{% block title %}
+    Register
+{% endblock %}
+
+{% block main %}
+
+<div class="jumbotron bg-light my-4">
+     <h2 class="display-10 text-center mb-5">Jungian Personality Typer</h2>
+      <p class="lead text-left">The Jung personality test measures your preferences for dealing with and relating to people, processing information, making decisions and organizing your life. Its results give you a good overview of your personality and behavior. You can then see how your Jung types match up with a potential employer's requirements.</p>
+</div>
+
+<div class="row justify-content-center">
+    <form action="/register" method="post" class="w-75">
+
+
+                <input autocomplete="off" autofocus class="form-control w-50 mx-auto my-4" name="fname" placeholder="First Name" type="text" required>
+
+
+                <input autocomplete="off" autofocus class="form-control w-50 mx-auto my-4" name="lname" placeholder="Last Name" type="text" required>
+
+
+                <input autocomplete="off" autofocus class="form-control w-50 mx-auto my-4" name="username" placeholder="Username" type="text" required>
+
+                <input id="psw" class="form-control w-50 mx-auto my-4" name="password" placeholder="Password" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+
+
+                <input class="form-control w-50 mx-auto my-4" name="confirm_password" placeholder="Confirm password" type="password" required>
+
+                <div class="container">
+                    <div class="row justify-content-md-center">
+                        <div class="col col-7 text-left my-3 ml-5">
+                <h5 class="mb-4">Password Requirements:</h5>
+                  <p id="letter" class="invalid">A lowercase letter</p>
+                  <p id="capital" class="invalid">A capital (uppercase) letter</p>
+                  <p id="number" class="invalid">A number</p>
+                  <p id="length" class="invalid">Minimum 8 characters</p>
+                </div>
+                </div>
+                </div>
+                <button class="btn btn-dark btn-lg mb-5" type="submit">REGISTER</button>
+            <p>Already have an account?
+        <a href="/login" class="btn btn-outline-dark btn-sm">Log In</a>
+            </p>
+
+    </form>
+</div>
+ <div id="push"></div>
+    <script src="/static/script.js" type="text/javascript"></script>
+{% endblock %}
