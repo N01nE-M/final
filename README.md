@@ -18,7 +18,7 @@ The Jung personality test measures your preferences for dealing with and relatin
 * [Postgresql in Heroku](https://www.postgresql.org/)
 
 
-## Website Features
+## Webapp Features
 
 * [SCREENSHOT1](https://ibb.co/18sBwLD)
 * [SCREENSHOT2](https://ibb.co/ftHhkHT)
@@ -27,7 +27,7 @@ The Jung personality test measures your preferences for dealing with and relatin
 * [SCREENSHOT5](https://photos.app.goo.gl/z1buSfaTa9bUDDax8)
 * [SCREENSHOT6](https://photos.app.goo.gl/ti4mcJCEgD3ueoET7)
 
-The website has working C-reate R-ead U-pdate D-elete features.
+The webapp has working C-reate R-ead U-pdate D-elete features.
 
 Can be viewed as guest or as a registered user
 
@@ -55,9 +55,9 @@ As a registered User the Nav Bar is consist of the following:
 
 * LOGOUT - logs the user out from the website and redirect to the login page
 
-### Routing
+### Github Repository
 
-Each personality type in the home and view page has a route for seperate HTML pages
+https://github.com/N01nE-M/final
 
 ### Database
 
