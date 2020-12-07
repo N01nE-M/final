@@ -22,6 +22,10 @@ The Jung personality test measures your preferences for dealing with and relatin
 
 * [SCREENSHOT1](https://ibb.co/18sBwLD)
 * [SCREENSHOT2](https://ibb.co/ftHhkHT)
+* [SCREENSHOT3](https://photos.app.goo.gl/w2MZCrQ8usnhz5ki6)
+* [SCREENSHOT4](https://photos.app.goo.gl/9X6KhrioRBVVShq28)
+* [SCREENSHOT5](https://photos.app.goo.gl/z1buSfaTa9bUDDax8)
+* [SCREENSHOT6](https://photos.app.goo.gl/ti4mcJCEgD3ueoET7)
 
 The website has working C-reate R-ead U-pdate D-elete features.
 
