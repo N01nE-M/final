@@ -37,7 +37,7 @@ To take the test guest users should register and login
 
 If the user has already taken the test before, the previous type will appear in the header and a button shows up if he/she wants to "Retake the Test". If no previous result the button will show up as "Take the Test"
 
-Each of the types webpage is has a link to a statistics page about the distribution of the types in the world population
+Each of the types webpage has a link to a statistics page about the distribution of the types in the world population
 
 As a guest the Nav Bar is consist of the following:
 
